@@ -1,0 +1,52 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+.img-logo{
+    width: 15rem;
+}
+  
+  .bgimg {
+    /* Background image */
+    background-color: #ED1D7F;
+    margin:0;
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: black;
+    /* Add a font */
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    /* Set the font-size to 25 pixels */
+    font-size: 2rem;
+  }
+  p{
+    margin-top: 0;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+a {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
